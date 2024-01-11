@@ -1,5 +1,17 @@
 [
   {
+    "name": "SalesOrderNumber",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "ordernumber"
+  },
+  {
+    "name": "OrderDate",
+    "type": "DATE",
+    "mode": "REQUIRED",
+    "description": "quarter"
+  }, 
+  {
     "name": "ProductKey",
     "type": "INT64",
     "mode": "REQUIRED",
