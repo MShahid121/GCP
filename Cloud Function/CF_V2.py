@@ -11,7 +11,7 @@ pandas
 pandas-gbq
 
 '''
-
+## The above libraries need to be referenced in the requirement file
 
 def gcs_to_bigQuery(event, context):
     """Triggered by a change to a Cloud Storage bucket.
