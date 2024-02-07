@@ -1,0 +1,10 @@
+1.	Create a cloud storage bucket (do not upload any file) with default setting
+2.	Create an BigQuery Dataset
+3.	Create event driven cloud function – for this demo we have cloud function v1
+4.	Create python function to upload the data to BigQuery or you can use one of the two python function provided in the git repo:
+	a -	GCF.py - write data to BigQuery
+	b - GCF_v2.py -  + write metadata about the file that has been uploaded to BigQuery
+5.	Deploy the cloud function
+6.	Upload one of the CSV file into a cloud storage bucket.
+7.	Check the cloud function log to see if it has picked it up.
+8.	Now navigate t back to BigQuery and see if you can see the dataset and query it.
