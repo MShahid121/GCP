@@ -1,0 +1,5 @@
+bq load --project_id dmn01-rsksoi-int-01-99f3 --source_format=NEWLINE_DELIMITED_JSON --replace dmn01_rsksoi_euwe2_bbi_v2.ageout-synthetic AGE_OUT_DAILY_DEV_nd.json
+
+
+Please note the above command expect the dataset to be created first
+Please adjust the above command specify your dataset, the above is just an example.

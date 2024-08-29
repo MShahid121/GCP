@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Student_ID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "A unique identifier for each student"
+  },
+  {
+    "name": "Study_Hours_per_Week",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "The average number of hours a student studies per week."
+  }, 
+  {
+    "name": "Attendance_Rate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "The percentage of classes a student attended. Note: This column contains some values exceeding 100%"
+  },
+    {
+    "name": "Attendance_Rate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "The percentage of classes a student attended. Note: This column contains some values exceeding 100%"
+  },
+    {
+    "name": "Previous_Grades",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "The average grade the student received in previous courses (scale of 0 to 100"
+  },
+  {
+    "name": "Participation_in_Extracurricular_Activities",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Indicates whether the student participates in extracurricular activities (Yes/No)"
+  },
+    {
+    "name": "Parent_Education_Level",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "The highest level of education attained by the student's parents (e.g., High School, Associate, Bachelor, Master"
+  },
+  {
+    "name": "PASSED",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "The target variable, indicating whether the student passed the course (Yes/No)"
+  } 
+]
